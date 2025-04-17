@@ -17,6 +17,7 @@
     "components"
   ],
   "author": "manojadams",
+  "contributors": ["vespasianvs"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/manojadams/layout-emotions/issues"
