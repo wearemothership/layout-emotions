@@ -25,11 +25,11 @@
   },
   "homepage": "https://manojadams.github.io/layout-emotions",
   "dependencies": {
-    "@emotion/styled": "^11.14.0"
+    "@emotion/styled": "^11.14.0",
+	"tsup": "^8.4.0"
   },
   "devDependencies": {
     "@types/react": "^19.1.2",
-    "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
