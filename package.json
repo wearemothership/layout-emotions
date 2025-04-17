@@ -34,8 +34,5 @@
   },
   "peerDependencies": {
     "react": "^18 || ^19"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
