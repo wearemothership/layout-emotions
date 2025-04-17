@@ -2,7 +2,8 @@
   "name": "layout-emotions",
   "version": "1.0.19",
   "description": "Collection of layout emotion components",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
+  "type": "module",
   "scripts": {
     "build": "tsup --dts",
     "test": "test",
