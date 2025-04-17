@@ -5,9 +5,9 @@
   "main": "dist/index.cjs",
   "type": "module",
   "scripts": {
-    "build": "tsup --dts",
+    "build": "tsup --experimental-dts",
     "test": "test",
-	"postinstall": "npm run build"
+    "postprepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,18 +19,21 @@
     "components"
   ],
   "author": "manojadams",
-  "contributors": ["vespasianvs"],
+  "contributors": [
+    "vespasianvs"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/manojadams/layout-emotions/issues"
   },
   "homepage": "https://manojadams.github.io/layout-emotions",
   "dependencies": {
-    "@emotion/styled": "^11.14.0",
-	"tsup": "^8.4.0"
+    "@emotion/styled": "^11.14.0"
   },
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.52.4",
     "@types/react": "^19.1.2",
+    "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
