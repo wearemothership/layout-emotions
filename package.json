@@ -1,6 +1,6 @@
 {
   "name": "layout-emotions",
-  "version": "1.0.19",
+  "version": "1.1.0",
   "description": "Collection of layout emotion components",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "components"
   ],
   "author": "manojadams",
-  "contributors": ["vespasianvs"],
+  "contributors": [
+    "vespasianvs"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/manojadams/layout-emotions/issues"
